@@ -10,14 +10,13 @@ this repo for a project using Splunk to get logs from Linux server this check at
 *  ` wget -O splunk-9.2.0.1-d8ae995bf219-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.2.0.1/linux/splunk-9.2.0.1-d8ae995bf219-Linux-x86_64.tgz" `
 * ls check in the file is installed
 ** ---for Handel file download ---(tar)
- tar: The command-line utility for manipulating tar archives.
-  
--xzv: Options for the tar command:
--x: Extract the contents of the archive.
--z: Use gzip to decompress the archive.
--v: Verbose mode, which displays detailed information about the extraction process.
--C /opt: Change to the /opt directory before extracting files.
--f filename: Specifies the input file (archive) to be extracted. In this case, file name is the 
+     tar: The command-line utility for manipulating tar archives.
+     -xzv: Options for the tar command:
+     -x: Extract the contents of the archive.
+     -z: Use gzip to decompress the archive.
+     -v: Verbose mode, which displays detailed information about the extraction process.
+     -C /opt: Change to the /opt directory before extracting files.
+     -f filename: Specifies the input file (archive) to be extracted. In this case, file name is the 
 **
 * tar -xzvC /opt -f splunk-9.2.0.1-d8ae995bf219-Linux-x86_64.tgz
 * start config  Splunk `cd bin` 
