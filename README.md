@@ -23,5 +23,6 @@ this repo for a project using Splunk to get logs from Linux server this check at
 * we can search for  suplunk file by `ls |grep splunk` will make list
 * to start config `./splunk status`
 * after add admin password & username +password for user access
-* just start `./splunk start` 
+* just start `./splunk start`
+* or jsut /opt/suplunk/bin/suplunk start --accept-license
 
